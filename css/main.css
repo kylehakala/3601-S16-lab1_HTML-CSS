@@ -1,24 +1,26 @@
 html {
-    background: lavenderblush;
+    background: gray;
 }
 
-h2, h3 {
-    color: cornflowerblue;
+h1, h2, h3 {
+    color: greenyellow;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
     text-align: center;
-}
-
-p {
-    font-family: monospace;
 }
 
 img {
     display: inline;
     width: auto;
     max-height: 150px;
-    margin-left: auto;
     margin-right: auto;
+    float: right;
 }
+
+.image {
+    width: 20%;
+    margin: 0 auto;
+}
+
 
 .centerText {
     text-align: center;
@@ -35,10 +37,18 @@ img {
 }
 
 .list {
-    margin-left: 50%;
+    margin-left: auto;
     margin-right: auto;
 }
 
+section {
+    width: 100%;
+}
 .centerdiv{
-    float: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.spacer {
+    height:100px;
 }
