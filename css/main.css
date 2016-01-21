@@ -2,9 +2,10 @@ html {
     background: lavenderblush;
 }
 
-h2 {
-    color: red;
+h2, h3 {
+    color: cornflowerblue;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+    text-align: center;
 }
 
 p {
@@ -12,8 +13,9 @@ p {
 }
 
 img {
-    display: block;
-    width: 50%;
+    display: inline;
+    width: auto;
+    max-height: 150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,4 +27,18 @@ img {
 #nav {
     background: greenyellow;
     height: 50px;
+}
+
+#footer {
+    background: greenyellow;
+    height: 120px;
+}
+
+.list {
+    margin-left: 50%;
+    margin-right: auto;
+}
+
+.centerdiv{
+    float: left;
 }
