@@ -2,6 +2,9 @@ html {
     background: gray;
 }
 
+body {
+    margin: 0;
+}
 h1, h2, h3 {
     color: greenyellow;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
@@ -21,16 +24,34 @@ img {
     margin: 0 auto;
 }
 
+#logo {
+    float: left;
+    width:35px;
+    margin-left: 15px;
+    margin-top: 15px
+}
 
 .centerText {
     text-align: center;
 }
 
-#nav {
-    background: greenyellow;
+nav {
+    display: block;
+    background: lightgreen;
+    margin-top: 50px;
     height: 50px;
+    position: fixed;
+    width: 100%;
 }
 
+header {
+    height: 50px;
+    display: block;
+    background: greenyellow;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
 #footer {
     background: greenyellow;
     height: 120px;
