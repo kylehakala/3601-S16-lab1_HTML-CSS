@@ -1,15 +1,7 @@
 html {
-    background: gray;
+    background: dimgray;
     font-family: "Lucida Grande", "Helvetica", Arial, sans-serif;
 }
-
-/*
-
-body {
-    margin: 0;
-    padding: 0;
-}
- */
 
 h2 {
     color: #5aebad;
@@ -109,9 +101,10 @@ footer > h3 {
 }
 
 section {
-    width: 100%;
-    background-color: darkgray;
-
+    width: 90%;
+    background-color: grey;
+    float: none;
+    margin: 0 auto;
 }
 
 .centerdiv{
