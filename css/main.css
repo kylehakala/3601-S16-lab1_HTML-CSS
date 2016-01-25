@@ -62,13 +62,17 @@ nav > a {
      font-size: 1.5em;
      text-decoration: none;
      background-color: lightskyblue;
-     border: 8px solid lightskyblue;
+     padding:4px;
+     border: 4px lightskyblue;
      border-radius: 6px;
+     border-style: outset;
  }
 
 nav > a:hover {
     background-color: #189BCA;
-    border: 8px solid #189BCA;
+    padding:4px;
+    border: 4px  #189BCA;
+    border-style: outset;
     color: dimgrey;
 }
 header {
