@@ -3,12 +3,20 @@ html {
     font-family: "Lucida Grande", "Helvetica", Arial, sans-serif;
 }
 
+/*
+
 body {
     margin: 0;
     padding: 0;
 }
+ */
 
-h1, h2, h3 {
+h2 {
+    color: #5aebad;
+    text-align: center;
+}
+
+h1, h3 {
     color: lightskyblue;
     text-align: center;
 }
@@ -26,6 +34,9 @@ div > img {
     float: right;
 }
 
+ul {
+    color: #5aebad;
+}
 .image {
     width: 20%;
     margin: 0 auto;
@@ -63,16 +74,14 @@ nav > a {
      text-decoration: none;
      background-color: lightskyblue;
      padding:4px;
-     border: 4px lightskyblue;
+     border: 4px outset lightskyblue;
      border-radius: 6px;
-     border-style: outset;
  }
 
 nav > a:hover {
     background-color: #189BCA;
     padding:4px;
-    border: 4px  #189BCA;
-    border-style: outset;
+    border: 4px outset #189BCA;
     color: dimgrey;
 }
 header {
@@ -101,6 +110,8 @@ footer > h3 {
 
 section {
     width: 100%;
+    background-color: darkgray;
+
 }
 
 .centerdiv{
