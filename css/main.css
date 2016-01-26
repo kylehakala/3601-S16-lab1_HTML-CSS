@@ -114,3 +114,7 @@ section {
 .spacer {
     height:120px;
 }
+
+body {
+    margin: 0;
+}
